@@ -74,12 +74,13 @@
   <main>
     <h2>Explorez un monde enchanté</h2>
     <p>Découvrez nos contes, fables et merveilles pleins de magie et d'aventures.</p>
-    <button class="btn" onclick="afficherMessage()">Clique ici pour une surprise !</button>
+    <a href="https://www.youtube.com/@FablesetMerveilles" target="_blank">
+      <button class="btn">Visite notre chaîne YouTube</button>
+    </a>
     <div id="message" style="margin-top: 2rem; font-size: 1.2rem;"></div>
   </main>
 
-  <footer>
-    &copy; 2025 Fable et Merveille. Tous droits réservés.
+  <footer>&copy; 2025 Fable et Merveille. Tous droits réservés.
   </footer>
 
   <script>
